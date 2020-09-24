@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --basic-black: #000000;
   --basic-light-black: #283136;
@@ -46,3 +47,53 @@ img {
   font-size: 40px;
   line-height: 30px;
 }
+=======
+:root {
+  --basic-black: #000000;
+  --basic-light-black: #283136;
+  --basic-white: #FFFFFF;
+  --basic-grey: #666666;
+  --basic-dark-grey: #444444;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Ariel, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--basic-light-black);
+  background-color: var(--basic-white);
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--basic-black);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-menu {
+    list-style: none;
+}
+    
+.caption {
+  font-size: 55px;
+  line-height: 55px;
+  color: var(--basic-black);
+}
+
+.feuture-list {
+  list-style: none;
+}
+
+.feuture-item h2 {
+  font-size: 40px;
+  line-height: 30px;
+}
+>>>>>>> 51c2e196bace41477eb767df85cf13d87712cdb4
