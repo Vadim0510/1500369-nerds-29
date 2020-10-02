@@ -35,6 +35,10 @@ img {
   line-height: 30px;
 }
 
+.header-feature {
+  list-style: none;
+}
+
 .feature-link {
   font-size: 16px;
   line-height: 18px;
@@ -50,18 +54,26 @@ img {
 .feature-menu {
   list-style: none;
 }
-    
-.caption {
+
+.feature-list {
+  text-align: center;
+}
+
+.feature-menu h1{
   font-size: 55px;
   line-height: 55px;
   color: var(--basic-black);
 }
 
-.caption-2 {
+.feature-item h2{
   font-size: 24px;
   line-height: 30px;
   color: var(--basic-black);
   text-transform: uppercase;
+}
+
+.feature-item {
+  list-style: none;
 }
 
 .button-red {
@@ -72,6 +84,7 @@ img {
   border-radius: 3px;
   font-size: 16px;
   line-height: 18px;
+  width: 160px;
   text-transform: uppercase;
 }
 
@@ -83,6 +96,7 @@ img {
   border-radius: 3px;
   font-size: 16px;
   line-height: 18px;
+  width: 160px;
   text-transform: uppercase;
 }
 
@@ -94,26 +108,29 @@ img {
   border-radius: 3px;
   font-size: 16px;
   line-height: 18px;
+  width: 160px;
   text-transform: uppercase;
 }
 
-.caption-3 {
+.benefit-menu h2 {
   font-size: 45px;
   line-height: 45px;
   color: var(--basic-black);
 }
 
-.caption-4, figcaption {
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: uppercase;
+.benefit-image figcaption {
   color: var(--basic-black);
 }
 
-.benefit-item h3{
+.benefit-item span {
   font-size: 45px;
   line-height: 64px;
   color: var(--basic-black);
+}
+
+.caption {
+  color: var(--basic-black);
+  text-transform: uppercase;
 }
 
 .benefit-item p {
@@ -121,7 +138,19 @@ img {
   line-height: 18px;
 }
 
-.footer-contacts h2{
+.benefit-item {
+  list-style: none;
+}
+
+.benefit-list {
+  list-style: none;
+}
+
+.benefit-logo {
+  list-style: none;
+}
+
+.footer-contacts h2 {
   font-size: 18px;
   line-height: 30px;
   color: var(--basic-black);
@@ -147,16 +176,17 @@ img {
   border-radius: 3px;
   font-size: 16px;
   line-height: 18px;
+  width: 219px;
   text-transform: uppercase;
 }
 
-.modal-popup h2{
+.modal-popup h2 {
   font-size: 45px;
   line-height: 53px;
   color: var(--basic-black);
 }
 
-.footer-text h2{
+.footer-text h2 {
   font-size: 36px;
   line-height: 36px;
   color: var(--basic-black);
@@ -166,6 +196,10 @@ img {
   font-size: 16px;
   line-height: 22px;
   color: var( --basic-dark-grey);
+}
+
+.footer-item {
+  list-style: none;
 }
 
 
