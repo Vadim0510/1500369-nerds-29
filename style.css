@@ -4,6 +4,7 @@
   --basic-white: #FFFFFF;
   --basic-grey: #666666;
   --basic-dark-grey: #444444;
+  --basic-grey-white: #EEEEEE;
   --basic-red: #FB565A;
   --basic-green: #00CA74;
   --basic-yellow: #EFC849;
@@ -35,20 +36,38 @@ img {
   line-height: 30px;
 }
 
-.header-feature {
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--basic-black);
+  text-transform: uppercase;
   list-style: none;
 }
 
-.feature-link {
+.main-navigation a:hover,
+.main-navigation a:focus, 
+.user-navigation a:hover, 
+.user-navigation a:focus {
+  color: var(--basic-red);
+}
+
+.basket {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 30px;
+  color: var(--basic-black);
   text-transform: uppercase;
+}
+
+.feature-link {
   background-color: var(--basic-red);
   color: var(--basic-white);
-  width: 253.28px;
-  height: 48.03px;
-  left: 76px;
+  height: 50px;
+  left: 140px;
   border-radius: 3px;
+  font-size: 16px;
+  line-height: 18px;
+  width: 240px;
+  text-transform: uppercase;
 }
 
 .feature-menu {
@@ -59,7 +78,7 @@ img {
   text-align: center;
 }
 
-.feature-menu h1{
+.feature-heading {
   font-size: 55px;
   line-height: 55px;
   color: var(--basic-black);
@@ -112,7 +131,7 @@ img {
   text-transform: uppercase;
 }
 
-.benefit-menu h2 {
+.benefit-menu h1 {
   font-size: 45px;
   line-height: 45px;
   color: var(--basic-black);
@@ -140,6 +159,7 @@ img {
 
 .benefit-item {
   list-style: none;
+  padding: 0;
 }
 
 .benefit-list {
@@ -202,4 +222,27 @@ img {
   list-style: none;
 }
 
+.header-haeding {
+  font-size: 55px;
+  line-height: 55px;
+  color: var(--basic-black);
+}
 
+.page-title {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--basic-black);
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: var(--basic-grey-white);
+  color: var(--basic-black);
+  width: 260px;
+  height: 50px;
+  left: 723px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
